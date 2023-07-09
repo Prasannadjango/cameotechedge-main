@@ -259,7 +259,7 @@ body {
 .Digitalcard,
 .Beyond-expectionsection,
 .Location-card,
-.Coreservice-container > a > .animate__jackInTheBox > .col > .card {
+.Coreservice-container > a > .animate__jackInTheBox >.col > .card {
   background-color: #fafafa;
   border-radius: 15px;
   border: 0;
