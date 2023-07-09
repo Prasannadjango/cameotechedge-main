@@ -25,6 +25,7 @@ import Ourpromoters from "./Pages/Ourpromoters";
 import Ourlocation from "./Pages/Ourlocations";
 import Digitalwarehousing from "./Pages/Digitalwarehousing";
 import Documentms from "./Pages/Documentms";
+import "animate.css/animate.min.css";
 function App() {
   return (
     <> 

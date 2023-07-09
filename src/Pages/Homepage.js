@@ -26,7 +26,7 @@ import lefttorightimg from "../Assets/Images/lefttorightdot.png";
 import Orangerdclogo from "../Assets/Images/orangedrc.png";
 import Cameotechimg2 from "../Assets/Images/cameotechourvisionimg-1.webp";
 import Centerline from "../Components/Centerline";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 export default function Homepage() {
   return (
     <>
@@ -38,7 +38,8 @@ export default function Homepage() {
           xs={1}
           className="m-0 Videomain-container Container-spacing"
         >
-          <Col>
+         
+          <Col >
             <h4 className="Colorhead-txt">YOUR CAMEOTECHEDGE</h4>
             <div className="pb-4">
               <p className="fw-bolder display-5">
@@ -53,6 +54,8 @@ export default function Homepage() {
               </p>
             </div>
           </Col>
+      
+        
           <Col className="position-relative">
             <div className="video-container ps-xl-5 ps-0">
               <video
@@ -118,12 +121,16 @@ export default function Homepage() {
           xs={1}
           className="m-0 w-100 pb-100 sectionbg1 Container-spacing Ourvision-container"
         >
+          <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="vision-img pe-xl-5 pe-0">
             <img src={visionimage} className="w-100 h-100" />
           </Col>
+          </AnimationOnScroll>
+         
 
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col>
-            <p className="fw-bolder display-5 py-3 header-font">Who we are</p>
+            <p className="fw-bolder display-5 py-3 ">Who we are</p>
             <p className="ourvision-content text-black-50 ">
               CameoTechedge provides efficient, Call center solution services,
               KYC services,Document Digitizing, Warehousing & Software solutions
@@ -132,13 +139,15 @@ export default function Homepage() {
               Tanzania and Uganda.
             </p>
           </Col>
+          </AnimationOnScroll>
         </Row>
         <div className="d-flex justify-content-center">
         <Centerline/>
         </div>
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing">
+        <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="pt-xl-0 pt-4">
-            <p className="fw-bolder display-5 py-3 header-font">Our mission</p>
+            <p className="fw-bolder display-5 py-3 ">Our mission</p>
             <p className="ourvision-content text-black-50 ">
               To provide world class services and efficient solutions to our
               client’s businesses and empower local communities . CameoTechedge
@@ -147,18 +156,27 @@ export default function Homepage() {
               efficient and effective customer focused workforce
             </p>
           </Col>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col className="vision-img ps-xl-5 ps-0">
             <img src={Cameotechimg2} className="w-100 h-100" />
           </Col>
+          </AnimationOnScroll>
+       
         </Row>
         <div className="d-flex justify-content-center">
         <Centerline/>
         </div>
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing sectionbg1">
+          <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="position-relative outsourcing-container ">
             <img src={Man1} className="w-100" />
           </Col>
-          <Col className="ps-xl-5 ps-0">
+          </AnimationOnScroll>
+         
+         <AnimationOnScroll animateIn="animate__bounceInRight" >
+         <Col className="ps-xl-5 ps-0">
             <h4 className="Colorhead-txt pb-4">EXPLORE CAMEOTECHEDGE</h4>
             <div className="pb-4">
               <h1 className="fw-bolder ">
@@ -166,6 +184,8 @@ export default function Homepage() {
               </h1>
             </div>
           </Col>
+         </AnimationOnScroll>
+          
         </Row>
         <div className="d-flex justify-content-center">
         <Centerline/>
@@ -178,6 +198,7 @@ export default function Homepage() {
             </h1>
           </div>
           <Row className="m-0 pb-100 Beyond-expection  py-5" xl={3} xs={1}>
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
             <Col className="d-flex Beyond-expectiontxt">
               <Card className="Beyond-expectionsection card1 bg-white">
                 <div className="d-flex flex-column">
@@ -192,7 +213,9 @@ export default function Homepage() {
                 <div className="go-corner"></div>
               </Card>
             </Col>
-
+            </AnimationOnScroll>
+          
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
             <Col className="d-flex Beyond-expectiontxt">
               <Card className="Beyond-expectionsection card1 bg-white">
                 <div className="d-flex flex-column">
@@ -206,7 +229,9 @@ export default function Homepage() {
                 <div className="go-corner"></div>
               </Card>
             </Col>
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
             <Col className="d-flex Beyond-expectiontxt">
               <Card className="Beyond-expectionsection  card1 bg-white">
                 <div className="d-flex flex-column">
@@ -221,7 +246,9 @@ export default function Homepage() {
                 <div className="go-corner"></div>
               </Card>
             </Col>
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
             <Col className="d-flex Beyond-expectiontxt">
               <Card className="Beyond-expectionsection mt-5 card1 bg-white">
                 <div className="d-flex flex-column">
@@ -235,8 +262,11 @@ export default function Homepage() {
                 <div className="go-corner"></div>
               </Card>
             </Col>
+            </AnimationOnScroll>
 
-            <Col className="d-flex Beyond-expectiontxt">
+
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
+             <Col className="d-flex Beyond-expectiontxt">
               <Card className="Beyond-expectionsection card1 bg-white mt-5">
                 <div className="d-flex flex-column">
                   <div className="count-container text-center">5</div>
@@ -250,7 +280,9 @@ export default function Homepage() {
                 <div className="go-corner"></div>
               </Card>
             </Col>
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
             <Col className="d-flex Beyond-expectiontxt">
               <Card className="Beyond-expectionsection  card1 bg-white mt-5">
                 <div className="d-flex flex-column">
@@ -264,6 +296,7 @@ export default function Homepage() {
                 <div className="go-corner"></div>
               </Card>
             </Col>
+            </AnimationOnScroll>
           </Row>
         </div>
         <div className="d-flex justify-content-center">
