@@ -1,0 +1,272 @@
+@media (min-width: 320px) and (max-width: 425px) {
+  .Contactus-btn,
+  .video-container {
+    display: none !important;
+  }
+  .Contactus-btnres button {
+    display: block !important;
+  }
+  .Logo-container {
+    width: 150px !important;
+    height: 58px !important;
+  }
+
+  .maincontainer {
+    padding-top: 129px !important;
+  }
+  .Call-container {
+    right: 30% !important;
+  }
+  .Ourvision-container .col:nth-child(2) {
+    padding-top: 30px;
+  }
+  .pb-100 {
+    padding-bottom: 30px !important;
+  }
+  .Coreservice-container > .col > .card {
+    margin-bottom: 20px;
+  }
+ ul{
+  margin: 0 !important;
+ }
+  .Companylogo-container {
+    padding: 0 20px;
+  }
+  .Videomain-container {
+    padding-bottom: 20px;
+  }
+  .Form-container {
+    flex-direction: column;
+  }
+  .Contact-form {
+    padding: 20px;
+  }
+  .close-btn {
+    display: block !important;
+  }
+  .Beyond-expection {
+    padding: 0 10px;
+  }
+
+  .Aboutus-point {
+    flex-direction: column;
+  }
+  .Aboutus-point > span:nth-child(2) {
+    text-align: center;
+  }
+  .Aboutus-point > span:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .Counter-containermain .col {
+    padding-bottom: 20px;
+  }
+  .transform-container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 0 !important;
+  }
+  .row > * ,
+  .navbar-toggler,
+  .navbar-brand{
+    padding: 0 !important ;
+  }
+  .maincontainer {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .Location-card3,
+  .Location-card2,
+  .Location-card1 {
+    margin: 0 !important;
+  }
+  .Footer-container{
+    padding: 30px 15px !important;
+  }
+  .setpart-card > .col:nth-child(1) > .card{
+    margin-bottom: 0;
+  }
+  .Location-cardimg2{
+    background-size: 100% !important;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .Contactus-btn,
+  .video-container {
+    display: none !important;
+  }
+  .Contactus-btnres button {
+    display: block !important;
+  }
+  .Logo-container {
+    width: 150px !important;
+    height: 58px !important;
+  }
+
+  .maincontainer {
+    padding-top: 129px !important;
+  }
+  .Call-container {
+    right: 30% !important;
+  }
+  .Ourvision-container .col:nth-child(2) {
+    padding-top: 30px;
+  }
+  .pb-100 {
+    padding-bottom: 30px !important;
+  }
+  .Coreservice-container > .col > .card {
+    margin-bottom: 20px;
+  }
+ ul{
+  margin: 0 !important;
+ }
+  .Companylogo-container {
+    padding: 0 20px;
+  }
+  .Videomain-container {
+    padding-bottom: 20px;
+  }
+  .Form-container {
+    flex-direction: column;
+  }
+  .Contact-form {
+    padding: 20px;
+  }
+  .close-btn {
+    display: block !important;
+  }
+  .Beyond-expection {
+    padding: 0 10px;
+  }
+
+  .Aboutus-point {
+    flex-direction: column;
+  }
+  .Aboutus-point > span:nth-child(2) {
+    text-align: center;
+  }
+  .Aboutus-point > span:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .Counter-containermain .col {
+    padding-bottom: 20px;
+  }
+  .transform-container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 0 !important;
+  }
+  .row > * ,
+  .navbar-toggler,
+  .navbar-brand{
+    padding: 0 !important ;
+  }
+  .maincontainer {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .Location-card3,
+  .Location-card2,
+  .Location-card1 {
+    margin: 0 !important;
+  }
+  .Footer-container{
+    padding: 30px 15px !important;
+  }
+  .setpart-card > .col:nth-child(1) > .card{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Contactus-btn,
+  .video-container {
+    display: none !important;
+  }
+  .Contactus-btnres button {
+    display: block !important;
+  }
+  .Logo-container {
+    width: 150px !important;
+    height: 58px !important;
+  }
+
+  .maincontainer {
+    padding-top: 129px !important;
+  }
+  .Call-container {
+    right: 30% !important;
+  }
+  .Ourvision-container .col:nth-child(2) {
+    padding-top: 30px;
+  }
+  .pb-100 {
+    padding-bottom: 30px !important;
+  }
+  .Coreservice-container > .col > .card {
+    margin-bottom: 20px;
+  }
+ ul{
+  margin: 0 !important;
+ }
+  .Companylogo-container {
+    padding: 0 20px;
+  }
+  .Videomain-container {
+    padding-bottom: 20px;
+  }
+  .Form-container {
+    flex-direction: column;
+  }
+  .Contact-form {
+    padding: 20px;
+  }
+  .close-btn {
+    display: block !important;
+  }
+  .Beyond-expection {
+    padding: 0 10px;
+  }
+
+  .Aboutus-point {
+    flex-direction: column;
+  }
+  .Aboutus-point > span:nth-child(2) {
+    text-align: center;
+  }
+  .Aboutus-point > span:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .Counter-containermain .col {
+    padding-bottom: 20px;
+  }
+  .transform-container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 0 !important;
+  }
+  .row > * ,
+  .navbar-toggler,
+  .navbar-brand{
+    padding: 0 !important ;
+  }
+  .maincontainer {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .Location-card3,
+  .Location-card2,
+  .Location-card1 {
+    margin: 0 !important;
+  }
+  .Footer-container{
+    padding: 30px 15px !important;
+  }
+  .setpart-card > .col:nth-child(1) > .card{
+    margin-bottom: 0;
+  }
+}
+
