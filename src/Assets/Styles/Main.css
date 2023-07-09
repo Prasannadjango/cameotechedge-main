@@ -259,7 +259,7 @@ body {
 .Digitalcard,
 .Beyond-expectionsection,
 .Location-card,
-.Coreservice-container > a > .col > .card {
+.Coreservice-container > a > .animate__jackInTheBox > .col > .card {
   background-color: #fafafa;
   border-radius: 15px;
   border: 0;
@@ -316,27 +316,26 @@ body {
     -0.2rem -0.2rem 0.3rem #ffffff;
 }
 
-.Container-spacing{
-  padding-right:100px ;
+.Container-spacing {
+  padding-right: 100px;
   padding-left: 100px;
 }
 
-
 .shakeeffect {
-	
-	animation: beat 1.3s infinite alternate;
-	transform-origin: center;
+  animation: beat 1.3s infinite alternate;
+  transform-origin: center;
 }
 
 /* Heart beat animation */
-@keyframes beat{
-	to { transform: scale(1.2); }
+@keyframes beat {
+  to {
+    transform: scale(1.2);
+  }
 }
 
-.sectionbg1{
+.sectionbg1 {
   background-color: #eefafd;
 }
-
 
 .go-corner {
   display: flex;
@@ -351,7 +350,6 @@ body {
   background-color: #00838d;
   border-radius: 0 4px 0 32px;
 }
-
 
 .card1 {
   display: block;
@@ -386,21 +384,19 @@ body {
 }
 
 .card1:hover {
-color: white;
-
+  color: white;
 }
 .v1 {
   border-left: 2px solid rgb(100, 100, 100);
   height: 100px;
- margin-bottom: 30px;
- margin-top: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-.Aboutus-point{
+.Aboutus-point {
   display: flex;
   margin-bottom: 20px;
 }
 .Aboutus-point span:first-child {
-
   background-color: var(--primary-color);
   border-radius: 50%;
   color: #fff;
@@ -409,29 +405,29 @@ color: white;
   height: 40px;
   margin-right: 15px;
   place-items: center;
-  width: 40px;}
+  width: 40px;
+}
 
+.Bannerimg-section {
+  background: url("../Images/bannerimage.jpg");
+  background-blend-mode: multiply;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 330px;
+  padding-top: 127px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .Bannerimg-section{
-    background: url('../Images/bannerimage.jpg');
-    background-blend-mode: multiply;
-    background-color: var(--primary-color);
-    width: 100%;
-    height: 330px;
-    padding-top: 127px;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-.Digitalcard{
+.Digitalcard {
   padding: 30px;
 }
-.flag-container img{
+.flag-container img {
   width: 120px;
 }
 
-.Carrers-container{
+.Carrers-container {
   background-color: white;
   border-radius: 10px;
 }

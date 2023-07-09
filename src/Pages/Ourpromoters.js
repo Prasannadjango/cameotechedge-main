@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { Button, Card, Col, Row } from "react-bootstrap";
 import Centerline from "../Components/Centerline";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Cyadinternationalimg from "../Assets/Images/Cyantech.webp";
 
 
@@ -18,9 +18,13 @@ export default function Ourpromoters() {
        </div>
       <div >
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing ">
+        <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="vision-img pe-xl-4 pe-0">
             <img src={Cameotechmainig} className="w-100 h-100 object-fit-contain " />
           </Col>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col className="pt-xl-0 pt-4">
            
             <p className="fw-bolder display-5 py-3">Cameo Corperate services india</p>
@@ -36,6 +40,7 @@ export default function Ourpromoters() {
             </p>
             <a href='https://cameoindia.com/' className='Color-txt text-decoration-none'>for more information, visit cameoindia.com</a>
           </Col>
+          </AnimationOnScroll>
         </Row>
 
         <div className="d-flex justify-content-center">
@@ -44,6 +49,7 @@ export default function Ourpromoters() {
 
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing ">
          
+        <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="py-xl-0 py-2">
             <p className="fw-bolder display-6 py-3">
               CYAD support & Finance initative
@@ -60,9 +66,13 @@ export default function Ourpromoters() {
               </p>
               <a href='https://www.cyad.mu/' className=' Color-txt text-decoration-none'>for more information, visit www.cyad.mu</a>
           </Col>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col className="vision-img ps-xl-5 ps-0">
             <img src={Cyadinternationalimg} className="w-100 h-100" />
           </Col>
+          </AnimationOnScroll>
         </Row>
       </div>
       <Footer />

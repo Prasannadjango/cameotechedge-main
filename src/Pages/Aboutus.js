@@ -16,7 +16,7 @@ import khalilimg from "../Assets/Images/khalilhaji.webp";
 import ramamoorthyimg from "../Assets/Images/ramamorthi.webp";
 import vijivenkateshimg from "../Assets/Images/vijivenketasan.webp";
 import Rajeshcaplotimg from "../Assets/Images/rajeshcahplot.webp";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 export default function Aboutus() {
   return (
     <>
@@ -30,9 +30,13 @@ export default function Aboutus() {
 
       <div>
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing">
+        <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="vision-img pe-xl-5 pe-0 ">
             <img src={Aboutusimg} className="w-100 h-100" />
           </Col>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col className="py-xl-0 py-5">
             <h4 className="Colorhead-txt">MEET THE TEAM</h4>
             <p className="fw-bolder display-5 py-3">CameoTechedge Family</p>
@@ -56,6 +60,7 @@ export default function Aboutus() {
               </div>
             </div>
           </Col>
+          </AnimationOnScroll>
         </Row>
 
         <Row xl={5} md={2} xs={1} className=" Container-spacing m-0 pb-100 Counter-containermain">
@@ -117,6 +122,7 @@ export default function Aboutus() {
         </Row>
 
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing">
+        <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col>
             <h4 className="Colorhead-txt pb-4">
               CREATE EXPERIENCE BEYOND EXPECT
@@ -152,9 +158,13 @@ export default function Aboutus() {
               </Col>
             </Row>
           </Col>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col className="vision-img ps-xl-5 ps-0">
             <img src={Aboutus2} className="w-100 h-100" />
           </Col>
+          </AnimationOnScroll>
         </Row>
 
         <div className="Container-spacing pb-100">
@@ -166,9 +176,13 @@ export default function Aboutus() {
             </p>
           </div>
           <Row className="m-0 ">
+           
             <Col>
               <img src={Jawaharnehruimg} className="w-100 h-100"/>
             </Col>
+          
+
+           
             <Col className="ps-5">
               <h4 className="Colorhead-txt">CHAIRMAN</h4>
               <p className="fw-bolder display-5 py-3">Jawahar Vadivelu</p>
@@ -195,9 +209,11 @@ export default function Aboutus() {
                 Logistics Limited.
               </p>
             </Col>
+        
           </Row>
           
           <Row xl={2} xs={1} className="m-0 pb-100">
+          <AnimationOnScroll animateIn="animate__bounceInLeft">
             <Col>
               <h4 className="Colorhead-txt"> MANAGING DIRECTOR</h4>
               <p className="fw-bolder display-5 py-3">Khalil Hajee</p>
@@ -211,15 +227,23 @@ export default function Aboutus() {
                 Khalil is a graduate from Queen's University.
               </p>
             </Col>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__bounceInRight">
             <Col className="vision-img ps-xl-5 ps-0">
               <img src={khalilimg} className="w-100 h-100" />
             </Col>
+            </AnimationOnScroll>
           </Row>
 
           <Row xl={2} xs={1} className="m-0 pb-100">
+          <AnimationOnScroll animateIn="animate__bounceInLeft">
             <Col className="vision-img pe-xl-5 pe-0">
               <img src={ramamoorthyimg} className="w-100 h-100" />
             </Col>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__bounceInRight">
             <Col>
               <h4 className="Colorhead-txt">DIRECTOR</h4>
               <p className="fw-bolder display-5 py-3">Ravi Ramamoorthy</p>
@@ -243,9 +267,12 @@ export default function Aboutus() {
                 for 6 yrs.
               </p>
             </Col>
+            </AnimationOnScroll>
           </Row>
 
           <Row xl={2} xs={1} className="m-0 pb-100">
+
+          <AnimationOnScroll animateIn="animate__bounceInLeft">
             <Col>
               <h4 className="Colorhead-txt">DIRECTOR</h4>
               <p className="fw-bolder display-5 py-3">Rajesh Chaplot</p>
@@ -269,17 +296,25 @@ export default function Aboutus() {
                 from His Excellency the President of India.
               </p>
             </Col>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__bounceInRight">
             <Col className="vision-img ps-xl-5 ps-0">
               <img src={Rajeshcaplotimg} className="w-100 h-100" />
             </Col>
+            </AnimationOnScroll>
           </Row>
 
          
 
           <Row xl={2} md={2} xs={1} className="m-0 pb-100">
+          <AnimationOnScroll animateIn="animate__bounceInLeft">
             <Col className="vision-img pe-xl-5 pe-md-3 pe-0">
               <img src={vijivenkateshimg} className="w-100 h-100" />
             </Col>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__bounceInRight">
             <Col>
               <h4 className="Colorhead-txt">HEAD OF AFRICA</h4>
               <p className="fw-bolder display-5 py-3">Vijai Venkatesan</p>
@@ -294,6 +329,7 @@ export default function Aboutus() {
                 from IIM Ahmadabad, India.
               </p>
             </Col>
+            </AnimationOnScroll>
           </Row>
         </div>
       </div>

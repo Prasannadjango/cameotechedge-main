@@ -9,7 +9,7 @@ import kycimgcore from "../Assets/Images/serviceicon/kyc.webp";
 // import Man1 from "../Assets/Images/african-man.jpg";
 import Archivingicon from "../Assets/Images/serviceicon/archiveicon.webp";
 import bsfisoftware from "../Assets/Images/serviceicon/icons8-computer-support-50.webp";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import servicesimg from "../Assets/Images/services.jpg";
 
 import { animateScroll as scroll } from "react-scroll";
@@ -26,6 +26,7 @@ export default function Services() {
      
       <div >
         <Row xl={2} xs={1} className="m-0 pb-100 Container-spacing">
+        <AnimationOnScroll animateIn="animate__bounceInLeft">
           <Col className="pt-xl-0 pt-4">
             <h4 className="Colorhead-txt">Greater experience</h4>
             <p className="fw-bolder display-5 py-3">Our Services</p>
@@ -36,9 +37,13 @@ export default function Services() {
               people focused on the why in each interaction.
             </p>
           </Col>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__bounceInRight">
           <Col className="vision-img pe-xl-5 pe-0 pt-xl-0 pt-4">
             <img src={servicesimg} className="w-100 object-fit-contain" />
           </Col>
+          </AnimationOnScroll>
         </Row>
 
         <div className="pb-100 Container-spacing">
@@ -48,6 +53,7 @@ export default function Services() {
           </div>
           <Row xl={2} xs={1} className="m-0 pt-5 Coreservice-container gx-5">
             <Link to="/Digitalexperience" onClick={handleLinkClick}>
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
               <Col>
                 <Card className="Services-card">
                   <div className="d-flex align-items-center py-3">
@@ -64,9 +70,11 @@ export default function Services() {
                   </div>
                 </Card>
               </Col>
+              </AnimationOnScroll>
             </Link>
 
             <Link to="/Digitalexperiencekyc" onClick={handleLinkClick}>
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
               <Col>
                 <Card className="Services-card">
                   <div className="d-flex align-items-center py-3 ">
@@ -95,9 +103,12 @@ export default function Services() {
                   </div>
                 </Card>
               </Col>
+              </AnimationOnScroll>
             </Link>
 
             <Link to="/Digitalexperiencebsfi" onClick={handleLinkClick}>
+
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
               <Col className="mt-5">
                 <Card className="Services-card">
                   <div className="d-flex align-items-center ">
@@ -117,9 +128,11 @@ export default function Services() {
                   </div>
                 </Card>
               </Col>
+              </AnimationOnScroll>
             </Link>
 
             <Link to="/Digitalwarehousing">
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
               <Col className="mt-5">
                 <Card className="Services-card">
                   <div className="d-flex align-items-center ">
@@ -141,9 +154,11 @@ export default function Services() {
                   </div>
                 </Card>
               </Col>
+              </AnimationOnScroll>
             </Link>
 
             <Link to="/Documentmanagesystem">
+            <AnimationOnScroll animateIn="animate__jackInTheBox">
               <Col className="mt-5">
                 <Card className="Services-card">
                   <div className="d-flex align-items-center ">
@@ -168,6 +183,7 @@ export default function Services() {
                   </div>
                 </Card>
               </Col>
+              </AnimationOnScroll>
             </Link>
           </Row>
         </div>
