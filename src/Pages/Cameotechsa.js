@@ -39,7 +39,11 @@ export default function Cameotechsa() {
             <p className="fw-bolder display-4">Core Services</p>
           </div>
 
-          <Row xl={3} xs={1} className="m-0 pt-xl-5 pt-4 Coreservice-container gx-5">
+          <Row
+            xl={3}
+            xs={1}
+            className="m-0 pt-xl-5 pt-4 Coreservice-container gx-5"
+          >
             <Link to="/Digitalexperience">
               <Col>
                 <Card>
